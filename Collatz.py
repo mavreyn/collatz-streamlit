@@ -45,7 +45,7 @@ def main():
 
     # Make a sidebar for input
     st.sidebar.title('Enter an Integer:')
-    z = st.sidebar.number_input('', 1, step=1)
+    z = st.sidebar.number_input('', 1, value=5302, step=1)
 
     # Display the sequence
     st.subheader('The Collatz Sequence for *' + str(z) + '*:')
