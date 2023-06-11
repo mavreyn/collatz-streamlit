@@ -7,7 +7,6 @@ Maverick Reynolds
 '''
 
 import streamlit as st
-import matplotlib.pyplot as plt
 from PIL import Image
 
 @st.cache_data
@@ -23,10 +22,6 @@ def collatz(z):
         steps.append(z)
         
     return steps
-
-@st.cache_data
-def collatz_stops(n):
-    return [len(collatz(i)) - 1 for i in range(1, n + 1)]
 
 def main():
     # Information about the app
