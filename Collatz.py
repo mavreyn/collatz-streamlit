@@ -25,7 +25,7 @@ def collatz(z):
 
 def main():
     # Information about the app
-    st.title('Interactive Collatz')
+    st.title('Interactive Collatz Visualizer')
     st.write('Made by Maverick Reynolds')
 
     st.subheader('About')
@@ -60,7 +60,7 @@ def main():
         st.write(coll_output)
 
     st.header('Importance of Iterations')
-    st.write('The number of iterations it takes to reach *1* is called the stopping time. The stopping time for *' + str(z) + '* is *' + str(len(coll_output) - 1) + '*. As the value of the input increases, the stopping time generally tends to increase. The stopping time for the first 1000 positive integers is shown below:')
+    st.write('The number of iterations it takes to reach *1* is called the stopping time. The stopping time for *' + str(z) + '* is *' + str(len(coll_output) - 1) + '*. As the value of the input increases, the stopping time generally tends to increase. The stopping time for the first 100,000 positive integers is shown below:')
 
     # Display the graph using matplotlib (use image)
     stops_img = Image.open('stopping_times_100K.png')
