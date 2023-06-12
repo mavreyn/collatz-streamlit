@@ -67,7 +67,7 @@ def main():
     st.image(stops_img, use_column_width=True)
 
     st.subheader('Interesting Observations')
-    st.write('As the numbers increase, the trivial lower bound follows the curve $y=log_2(x)$ because the quickest reduction would occur if the number passed through is a power of *2* so that at every iteration we are dividing by *2* to get to *1*. The upper bound is much harder to predict. and is still an open problem.')
+    st.write('As the numbers increase, the trivial lower bound follows the curve $y=log_2(x)$ because the quickest reduction would occur if the number passed through is a power of *2* so that at every iteration we are dividing by *2* to get to *1*. The upper bound is much harder to predict and is still an open problem.')
     st.write('In addition, the graph shows some very peculiar curves which are quite satisfying to look at.')
 
     st.header('Other Resources')
