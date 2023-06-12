@@ -11,7 +11,7 @@ The Streamlit interactive is based off of Collatz.py, and can be accessed at THI
 ## Other Information
 
 Check out how I made it:
-- MEDIUM
+- [Medium](https://medium.com/@mcreynolds02/using-streamlit-to-visualize-the-collatz-conjecture-starter-project-4b680928ea2a?source=friends_link&sk=3ba3ec99aea1a33b1fd990c62cdb3123)
 - MAVREYN
 
 Here are the additional links that can be found in the Streamlit
