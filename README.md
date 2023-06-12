@@ -6,7 +6,7 @@ This was a rather simple project for me to create, yet I felt it necessary as it
 
 ## How it Works
 
-The Streamlit interactive is based entirely off of Collatz.py, and can be accessed [here](collatz-conjecture.streamlit.app). The user can enter an integer into the side bar and view the corresponding graph appear which shows the progression of the value as the relation is recursively applied until it eventually subsides at 1. Below is more information about the interesting properties and patterns of the Collatz relation as well as other resources for additional learning
+The Streamlit interactive is based entirely off of `Collatz.py`, and can be accessed [here](collatz-conjecture.streamlit.app). The user can enter an integer into the side bar and view the corresponding graph appear which shows the progression of the value as the relation is recursively applied until it eventually subsides at 1. Below is more information about the interesting properties and patterns of the Collatz relation as well as other resources for additional learning
 
 ## Other Information
 
